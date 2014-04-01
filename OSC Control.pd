@@ -1,0 +1,9 @@
+#N canvas 593 344 450 300 10;
+#X obj 171 178 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 195 88 print osc;
+#X obj 195 55 dumpOSC 3333;
+#X obj 172 121 OSCroute /1 /2 /3 /4;
+#X connect 2 0 1 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
