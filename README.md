@@ -1,4 +1,3 @@
-Not sure how to make a json file yet :S. Sorry
 
 
 npm install node-osc
