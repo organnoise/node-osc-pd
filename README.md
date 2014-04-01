@@ -1,10 +1,8 @@
 
 
-npm install node-osc
 
-npm install forever
 
-npm install express
+npm install 
 
 
 node oscserve.js
