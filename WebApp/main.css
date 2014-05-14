@@ -1,0 +1,59 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  background-color:#fefaf5;
+}
+.main{
+    text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	visibility: visible;
+	display: block
+}
+
+.content{
+    background-color:#fefaf5;
+    border:1px dashed #52cb98;
+    margin-left: -150px;
+	position: absolute;
+	top: -100px;
+	left: 50%;
+	width: 320px;
+	height: 200px;
+	visibility: visible;
+    -moz-border-radius:48px;
+	-webkit-border-radius:48px;
+	border-radius:48px;
+}
+
+button {
+    outline: none;
+    transition: all 0.5s ease;
+	background-color:#44c767;
+	-moz-border-radius:48px;
+	-webkit-border-radius:48px;
+	border-radius:48px;
+	border:0px solid #18ab29;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:37px;
+	padding:32px 8px;
+    margin:40px;
+    
+}
+button:hover {
+	background-color:#52cb98;
+}
+button:active {
+	position:relative;
+	top:1px;
+    transition: top .8s ease;
+}

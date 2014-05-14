@@ -1,6 +1,6 @@
-var express = require('express');
-var app = express();
-var osc = require('node-osc');
+var express = require('express'),
+	app = express(),
+	osc = require('node-osc');
 
 var client = new osc.Client('127.0.0.1', 3333);
 
@@ -9,5 +9,5 @@ app.get('/', function(req, res){
   client.send('/1', 1);
 });
 
-app.listen(3000);
+app.listen(3001);
 
