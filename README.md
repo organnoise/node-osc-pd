@@ -7,9 +7,7 @@ npm install
 
 node oscserve.js
 
-open OSC Control.pd
 
-open index.html
+The PD patch and Web App will auto-launch.
 
-
-You should be able to turn the toggle on and off with the buttons on the html page.
+You should be able to turn the PD patche's toggle on and off with the buttons on the html page.
